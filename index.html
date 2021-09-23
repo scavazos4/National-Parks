@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>The Last Hike</title>
+
+        <!-- Font Awesome for icons-->
+        <link rel="icon" type="image/x-icon" href="assets/mountain-solid.svg" />
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav"> <!--formatting variables pulling from the style sheet-->
+            <div class="container setpadding padding1">
+                    <ul class="navbar-nav left-auto">
+                        <li class="nav-item"><a class="nav-link" href="#mainNav">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#idea">The Idea</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hwdi">How We Did It</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#MTT">The Team</a></li>
+                    </ul>
+            </div>
+        </nav>
+
+        <!-- Header-->
+        <header class="header">
+            <div class="container setpadding d-flex setheight set-item-center set-center">
+                <div class="d-flex set-center">
+                    <div class="text-center">
+                        <h1 class="marginauto margin0 text-uppercase">The Last Hike</h1>
+                        <h2 class="text-white-50 text-center marginauto margintop5 bottommargin3">A quick look at the fatalities that have occured at National Parks</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Idea Section -->
+        <section class="idea-section text-center" id="idea">
+            <div class="container setpadding px-lg-5">
+                <div class="row gx-4 gx-lg-5 set-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white bottommargin15">THE IDEA</h2>
+                        <p class="text-white-50">
+                            There's an alarming number of incidents that have occurred at the 423 national parks across the country that have lead to death.
+                            With over 230 millions visits in 2020, tourists may be unaware of the hidden risks of visiting one of these beautiful parks.
+                            Our intention is to spotlight those parks that have experienced numerous fatalities and should therefore, be avoided.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How We Did It Sect. -->
+        <section class="hwdi-section bg-black" id="hwdi">
+            <div class="container setpadding px-lg-5">
+                <h2 class="text-white bottommargin15">HOW WE DID IT</h2>
+                
+                <!--General Data Analysis-->
+                <hr class="hide line-block bottommargin leftmargin" />
+                <div class="row gx-0 margintop15 bottommargin3 mb-lg-0 set-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/ScatterChart.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center setheight hwdi">
+                            <div class="d-flex setheight">
+                                <div class="hwdi-text setwidth marginauto text-center text-lg-left">
+                                    <h3 class="text-white">Park Deaths over 10 years</h3>
+                                    <p class="bottommargin text-white-50"></p>
+                                    <hr class="hide line-block bottommargin leftmargin" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hide line-block bottommargin leftmargin" /> <!--blank lines for some space-->
+                <hr class="hide line-block bottommargin leftmargin" />
+
+                <div class="row gx-0 bottommargin3 mb-lg-0 set-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/LineChart.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center setheight hwdi">
+                            <div class="d-flex setheight">
+                                <div class="hwdi-text setwidth marginauto text-center text-lg-right">
+                                    <h3 class="text-white">Decrease in Park Visits in 2020</h3>
+                                    <p class="bottommargin text-white-50"></p>
+                                    <hr class="hide line-block bottommargin marginright" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tableau-->
+                 <hr class="hide line-block bottommargin leftmargin" />
+                 <hr class="hide line-block bottommargin leftmargin" />
+                 <div class="row gx-0 bottommargin15 mb-lg-5 set-item-center">      
+                     <div class="col-xl-4 col-lg-5">
+                         <div class="featured-text text-center text-lg-center">
+                             <script type='text/javascript' src='https://prod-useast-b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1216px; height: 791px;'><object class='tableauViz' width='1216' height='791' style='display:none;'>
+                                 <param name='host_url' value='https%3A%2F%2Fprod-useast-b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;kernstaylor7' /><param name='name' value='parkMapActivities&#47;Story1' /><param name='tabs' value='no' />
+                                 <param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
+                            </div>
+                     </div>
+                 </div>               
+
+            
+                <!-- Machine Learning Portion-->
+                <hr class="hide line-block bottommargin leftmargin" />
+                <hr class="hide line-block bottommargin leftmargin" />
+                <div class="row gx-0 mt-4 bottommargin3 mb-lg-0 set-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/KNN Results.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center setheight hwdi">
+                            <div class="d-flex setheight">
+                                <div class="hwdi-text setwidth margintbauto text-center text-lg-left">
+                                    <h3 class="text-white">Applying KNN Machine Learning</h3>
+                                    <p class="bottommargin text-white-50"></p>
+                                    <hr class="hide line-block bottommargin leftmargin" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row gx-0 bottommargin3 mb-lg-0 set-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/Top15.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center setheight hwdi">
+                            <div class="d-flex setheight">
+                                <div class="hwdi-text setwidth margintbauto text-center text-lg-right">
+                                    <h3 class="text-white">Applying Random Forest</h3>
+                                    <p class="bottommargin text-white-50"></p>
+                                    <hr class="hide line-block bottommargin marginright" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Meet The Team-->
+        <section class="meet-section bg-black" id="MTT">
+            <div class="container px-4 px-lg-6">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-3 bottommargin1 mb-md-0">
+                        <div class="card topbottompadding setheight">
+                            <div class="card-body text-center">
+                                <i class="fas fa-female text-primary bottommargin5"></i>
+                                <h3 class="text-uppercase basicmargin">Kiele Allen</h3>
+                                <hr class="margin15 marginauto" />
+                                <div class="small text-black-50">Bootstrap & HTML</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 bottommargin1 mb-md-0">
+                        <div class="card topbottompadding setheight">
+                            <div class="card-body text-center">
+                                <i class="fas fa-male text-primary bottommargin5"></i>
+                                <h3 class="text-uppercase basicmargin">Shawn Cavazos</h3>
+                                <hr class="margin15 marginauto" />
+                                <div class="small text-black-50">Machine Learning & Plots</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 bottommargin1 mb-md-0">
+                        <div class="card topbottompadding setheight">
+                            <div class="card-body text-center">
+                                <i class="fas fa-female text-primary bottommargin5"></i>
+                                <h3 class="text-uppercase basicmargin">Taylor Kerns</h3>
+                                <hr class="margin15 marginauto" />
+                                <div class="small text-black-50">Data Cleaning & Tableau</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 bottommargin1 mb-md-0">
+                        <div class="card topbottompadding setheight">
+                            <div class="card-body text-center">
+                                <i class="fas fa-male text-primary bottommargin5"></i>
+                                <h3 class="text-uppercase basicmargin">Amara Hamadache</h3>
+                                <hr class="margin15 marginauto" />
+                                <div class="small text-black-50">Plots & Data Analysis</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="hide line-block bottommargin leftmargin" />
+        </section>
+
+        <div>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">We Did it! UTSA Data Analytics Bootcamp 2021</div></footer>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
